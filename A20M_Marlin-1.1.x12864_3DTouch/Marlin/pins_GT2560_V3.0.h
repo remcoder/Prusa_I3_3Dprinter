@@ -73,13 +73,22 @@
 #define Z_DIR_PIN          23
 #define Z_ENABLE_PIN       27
 
-#define E0_STEP_PIN        46   //43
-#define E0_DIR_PIN         44   //45
-#define E0_ENABLE_PIN      12   //41
+// #define E0_STEP_PIN        46   //43
+// #define E0_DIR_PIN         44   //45
+// #define E0_ENABLE_PIN      12   //41
 
-#define E1_STEP_PIN        49
-#define E1_DIR_PIN         47
-#define E1_ENABLE_PIN      48
+// #define E1_STEP_PIN        49
+// #define E1_DIR_PIN         47
+// #define E1_ENABLE_PIN      48
+
+// swap extruder pins so that the color mixing gui makes sense
+#define E0_STEP_PIN        49
+#define E0_DIR_PIN         47
+#define E0_ENABLE_PIN      48
+
+#define E1_STEP_PIN        46
+#define E1_DIR_PIN         44
+#define E1_ENABLE_PIN      12
 
 //
 // Temperature Sensors
